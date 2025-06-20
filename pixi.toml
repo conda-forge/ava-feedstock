@@ -7,7 +7,7 @@
 
 [project]
 name = "ava-feedstock"
-version = "3.48.0"  # conda-smithy version used to generate this file
+version = "3.50.0"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/ava-feedstock"
 authors = ["@conda-forge/ava"]
 channels = ["conda-forge"]
