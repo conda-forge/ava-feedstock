@@ -1,5 +1,5 @@
 context:
-  version: "7.0.0"
+  version: "8.0.0"
 
 package:
   name: ava
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/ava/-/ava-${{ version }}.tgz
-  sha256: 91463ed6c3ad9f44b27d7d992891d5b442a4acc44b86111f32a5c3b0d40fdeda
+  sha256: 2c9cd073fedd28db01e78a148874f0399a39dc2c151b441fa3010d360bb1e3d7
 
 build:
   number: 0
