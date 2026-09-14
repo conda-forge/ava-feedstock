@@ -17,10 +17,10 @@ pnpm-licenses generate-disclaimer --prod --output-file=third-party-licenses.txt
 mkdir -p ${PREFIX}/bin
 tee ${PREFIX}/bin/ava << EOF
 #!/bin/sh
-exec \${CONDA_PREFIX}/lib/node_modules/ava/entrypoints/cli.mjs "\$@"
+exec \${CONDA_PREFIX}/lib/node_modules/ava/entrypoints/cli.js "\$@"
 EOF
 chmod +x ${PREFIX}/bin/ava
 
 tee ${PREFIX}/bin/ava.cmd << EOF
-call %CONDA_PREFIX%\bin\node %CONDA_PREFIX%\lib\node_modules\ava\entrypoints\cli.mjs %*
+call %CONDA_PREFIX%\bin\node %CONDA_PREFIX%\lib\node_modules\ava\entrypoints\cli.js %*
 EOF
